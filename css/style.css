@@ -486,6 +486,17 @@ footer{
 
 
 }
+@media (max-width:856px ){
+    .cont-nav-2{
+        width: 100%;
+    }
+    .navegador-2{
+        width: 100%;
+
+    }    
+    
+}
+
 @media (max-width:724px ){
     footer{
         height: 200px;
