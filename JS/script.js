@@ -11,29 +11,21 @@ document.addEventListener('DOMContentLoaded', function () {
             contenidoMenu.style.display = 'block';
             if( 724 <= anchoPantalla && anchoPantalla <=900){
                 header.style.height = '110px'
-            }
-            if( 684 <= anchoPantalla && anchoPantalla <724){
+            } else if( 684 <= anchoPantalla && anchoPantalla <724){
                 header.style.height = '120px'
-            }
-            if( 547 < anchoPantalla && anchoPantalla <684){
+            }else if( 547 < anchoPantalla && anchoPantalla <684){
                 header.style.height = '130px'
-            }
-            if( 465 <= anchoPantalla && anchoPantalla <=547){
+            }else if( 465 <= anchoPantalla && anchoPantalla <=547){
                 header.style.height = '195px'
-            }
-            if( 454 <= anchoPantalla && anchoPantalla <465){
+            } else if( 454 <= anchoPantalla && anchoPantalla <465){
                 header.style.height = '200px'
-            }
-            if( 389 <= anchoPantalla && anchoPantalla < 454){
+            }else if( 389 <= anchoPantalla && anchoPantalla < 454){
                 header.style.height = '220px'
-            }
-            if( 357 < anchoPantalla && anchoPantalla < 389){
+            }else if( 357 < anchoPantalla && anchoPantalla < 389){
                 header.style.height = '250px'
-            }
-            if( anchoPantalla <= 357){
+            } else if( anchoPantalla <= 357){
                 header.style.height = '350px'
             }
-
         } else {
             
             contenidoMenu.style.display = 'none';
@@ -42,8 +34,36 @@ document.addEventListener('DOMContentLoaded', function () {
             
         }
         
+
+        
     });
-    
+    window.addEventListener('resize', function() {
+        anchoPantalla = window.innerWidth;
+        if (contenidoMenu.style.display == "block"){
+            if( 724 <= anchoPantalla && anchoPantalla <=900){
+                header.style.height = '110px'
+            } else if( 684 <= anchoPantalla && anchoPantalla <724){
+                header.style.height = '120px'
+            }else if( 547 < anchoPantalla && anchoPantalla <684){
+                header.style.height = '130px'
+            }else if( 465 <= anchoPantalla && anchoPantalla <=547){
+                header.style.height = '195px'
+            } else if( 454 <= anchoPantalla && anchoPantalla <465){
+                header.style.height = '200px'
+            }else if( 389 <= anchoPantalla && anchoPantalla < 454){
+                header.style.height = '220px'
+            }else if( 357 < anchoPantalla && anchoPantalla < 389){
+                header.style.height = '250px'
+            } else if( anchoPantalla <= 357){
+                header.style.height = '350px'
+            };
+        };
+
+    });    
+
+
+
+
 });
 
 
