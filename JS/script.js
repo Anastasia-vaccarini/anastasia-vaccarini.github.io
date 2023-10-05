@@ -39,6 +39,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     window.addEventListener('resize', function() {
         anchoPantalla = window.innerWidth;
+        if (anchoPantalla >=900 ){
+            contenidoMenu.style.display ='block'
+        }
+        if (anchoPantalla < 900){
+            contenidoMenu.style.display ='none'
+            header.style.height = ''
+        }
+
         if (contenidoMenu.style.display == "block"){
             if( 724 <= anchoPantalla && anchoPantalla <=900){
                 header.style.height = '110px'
