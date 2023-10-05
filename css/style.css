@@ -515,6 +515,9 @@ footer{
 
 }
 @media (max-width:684px ){
+    .seccion-pagina-3{
+        height: 550px;
+    }
     .seccion-pagina-2{
         height: 700px;
     }
