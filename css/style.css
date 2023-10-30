@@ -366,6 +366,12 @@ body, #body{
 
 }
 
+.div-botonesfinalform{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 .seccion-pagina-4-cajaformulario-submit {
     width: 100%;
     background-color: var(--color_boton_enviarform_verde);
