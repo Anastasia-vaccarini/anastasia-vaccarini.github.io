@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
@@ -11,8 +11,11 @@
 
 
         <div class="header_element--1 alineador_vertical">
-            <img class="header_element--1--img"  src="imagenes_integrador_front/codoacodo.png" alt="logo codo a codo">
-            <h2>Conf Bs As</h2>
+            <a href="index.html">
+                <img class="header_element--1--img"  src="imagenes_integrador_front/codoacodo.png" alt="logo codo a codo">
+            </a>
+            
+            <h2>Conf Wx As</h2>
         </div>
         <!--comienza el boton menu-->
         <div id="botonMenu" class="alineador_vertical">
@@ -22,18 +25,25 @@
                 <path d="M14 4h6v6h-6z" />
                 <path d="M4 14h6v6h-6z" />
                 <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-              </svg>
+            </svg>
         </div>
+
         <!--termina el boton menu-->
         <div id="contenidoMenu" class="header_element--2 alineador_vertical" >
             
             <nav class="navegador">
                 <div >
-                    <a class="header_element--2--opcion  header_element--2--opcion-1" href="">La conferencia</a>
-                <a class="header_element--2--opcion  header_element--2--opcion-3" href="">Los oradores</a>
-                <a class="header_element--2--opcion  header_element--2--opcion-3" href="">El lugar y la fecha</a>
-                <a class="header_element--2--opcion  header_element--2--opcion-3" href="">Conviértete en orador</a>
-                <a class="header_element--2--opcion  header_element--2--opcion-2" href="">Comprar tickets</a>
+                    <div><a class="header_element--2--opcion  header_element--2--opcion-1" href="index.html">La conferencia</a></div>
+                    <div><a class="header_element--2--opcion  header_element--2--opcion-3" href="">Los oradores</a></div>
+                    <div><a class="header_element--2--opcion  header_element--2--opcion-3" href="">El lugar y la fecha</a></div>
+                    <div><a class="header_element--2--opcion  header_element--2--opcion-3" href="">Conviértete en orador</a></div>
+                    <div>
+                        <a class="header_element--2--opcion  header_element--2--opcion-2" href="ComprarTickets.html">Comprar tickets</a></div>
+
+                    
+                
+                
+                
                 </div>
                 
     
@@ -65,10 +75,15 @@
                 <!-- aquí están los botones -->
                 <div class="cajadetexto-secbotones">
                     <div>
-                        <input class="seccion-pagina-1-cajatexto-botones seccion-pagina-1-cajatexto-botones--orador " type="submit"    value="Quiero ser orador">
+                        <input class="seccion-pagina-1-cajatexto-botones seccion-pagina-1-cajatexto-botones--orador " type="button"    value="Quiero ser orador">
                     </div>
+
                     <div>
-                        <input class="seccion-pagina-1-cajatexto-botones seccion-pagina-1-cajatexto-botones--comprar" type="submit"    value="Comprar tickets">
+                        <a href="ComprarTickets.html">
+                            <input class="seccion-pagina-1-cajatexto-botones seccion-pagina-1-cajatexto-botones--comprar" type="button"    value="Comprar tickets">
+                        </a>
+                        
+
                     </div>
 
 
@@ -81,6 +96,7 @@
         </div>
         
     </div>
+
 
 
 
