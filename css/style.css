@@ -414,7 +414,10 @@ footer{
 
     width: 80%;
 }
-
+.secciónpagcomprartickets{
+    padding-left: 3px;
+    padding-right: 3px;
+}
 .navegador-2, .navegador-2 a {
     font-size: large;
     text-decoration: none;
