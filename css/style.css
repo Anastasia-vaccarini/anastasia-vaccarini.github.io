@@ -18,6 +18,9 @@
     --color_footer:rgb(16, 46, 73);
 
 }
+.labelCategoria2{
+    display: none;
+}
 .centrador-horizontal{
     display: flex;
     justify-content: center;
@@ -57,7 +60,7 @@ body{
 } */
 
 .navegador div {
-    
+
     /* background-color: violet; */
     display: flex;
     /* flex-direction: row; */
@@ -394,13 +397,17 @@ body{
     text-align: left;
 }
 footer{
+    object-position: bottom;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    bottom: 0;
     width: 100%;
     height: 100px;
     background-color: var(--color_footer);
+
+
 
 }
 .cont-nav-2{
@@ -426,10 +433,10 @@ footer{
 */
  @media (max-width: 900px){
     .header{
-        
+
         box-sizing: border-box;
         padding: 3px;
-     
+
         flex-direction: column;
 
     }
@@ -443,7 +450,7 @@ footer{
         box-sizing: border-box;
         padding: 10px;
 
-        
+
         width: 100%;
         /* background-color: aquamarine; */
     }
@@ -485,16 +492,16 @@ footer{
     }
      #contenidoMenu{
         box-sizing: border-box;
-        
+
         margin: 0%;
 
         width: 100%;
         height: 90px;
-        
-        display: none;
-        
 
-    } 
+        display: none;
+
+
+    }
 
 
 
@@ -507,9 +514,9 @@ footer{
     .navegador-2{
         width: 100%;
 
-    }    
-    
-} 
+    }
+
+}
 
 
 
@@ -542,7 +549,7 @@ footer{
 
 }
 @media (max-width:684px ){
-    
+
     .seccion-pagina-3{
         height: 550px;
     }
@@ -550,20 +557,20 @@ footer{
         height: 700px;
     }
     .seccion-pagina-2-tarjetas-sub{
-     
+
         width: 95%;
     }
 
 }
 @media (max-width: 547px){
     .navegador div {
-    
-       
+
+
         flex-wrap: wrap;
         justify-content:space-evenly;
-        
+
     }
-    
+
 }
 @media (max-width: 465px){
 
@@ -625,11 +632,11 @@ footer{
         padding-top: 30px;
     }
     .seccion-pagina-2-tarjetas{
-        
+
         width: 100%;
         /* background-color: red; */
         margin-bottom: 30px;
-        
+
     }
     .cajadetexto-secbotones div{
         width: 100%;
@@ -640,7 +647,7 @@ footer{
     .seccion-pagina-2-tarjetas-sub{
         /* background-color: green; */
         flex-direction: column;
-        
+
     }
 
     .seccion-pagina-2-tarjetas-elemento{
@@ -663,10 +670,10 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        
+
+
         margin-right: 10px;
-        
+
     }
     /* .seccion-pagina-2-tarjetas-elemento img{
         height: auto;
@@ -683,7 +690,7 @@ footer{
     }
     .seccion-pagina-4-cajaformulario-form-input{
         flex-direction: column;
-        
+
     }
     .seccion-pagina-4-cajaformulario-form-input input{
         width: 90%;
@@ -703,7 +710,7 @@ footer{
     footer{
         height: 250px;
     }
-    
+
 }
 
 @media (max-width: 410px){
@@ -717,14 +724,14 @@ footer{
     }
     .seccion-pagina-3-caja{
         display: block;
-        
+
         width: 100%;
     }
     .seccion-pagina-3-elemento-1-buttom{
         object-position: center;
         margin-left: auto;
         margin-right: auto;
-        
+
     }
     .seccion-pagina-4{
         height: 550px;
@@ -733,16 +740,16 @@ footer{
         height: 250px;
     }
 
-    
+
 }
 
 @media (max-width: 357px){
     .seccion-pagina-1{
         height: 550px;
-        
+
     }
     .contenedorcovertor{
-        
+
         padding: 0%;
         display: flex;
         justify-content:center;
@@ -758,13 +765,13 @@ footer{
         height: 120px;
 
     }
-    
-    
-    .header_element--1{     
-        
+
+
+    .header_element--1{
+
         padding-top: 10px;
         width: 50%;
-    
+
         text-align: center;
         display: block;
     }
@@ -772,7 +779,7 @@ footer{
         margin-bottom: 0%;
         margin-top: 0px;
         box-sizing: border-box;
-        
+
     }
     .header_element--1 img{
         margin-left: 0%;
@@ -780,9 +787,9 @@ footer{
 
     .seccion-pagina-2{
         height: 1600px;
-        
+
     }
-    
+
     .seccion-pagina-2-tarjetas-elemento {
         text-align: center;
         display: block;
@@ -807,9 +814,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    
+
 }
-/* 
+/*
 @media (max-width:385px ){
     footer{
         height: 280px;
@@ -817,7 +824,7 @@ footer{
     .navegador-2 a {
         padding-top: 10px;
 
-        /* background-color: green; 
+        /* background-color: green;
 
     }
     .navegador-2 a:last-of-type {
@@ -826,4 +833,375 @@ footer{
 
 
 } */
+:root{
+    --altoinputcomprar:30px;
+    --borderRadioinputsComprartickets:4px;
+    --colorbordesinputscomprartickets:rgba(129, 131, 133, 0.363);
+    --colorTotalAPagar:rgb(166, 216, 231);
+    --coloresbotonesfinalform:rgba(121, 197, 50, 0.959);
 
+}
+
+
+.secciónpagcomprartickets{
+    width: 100%;
+    height:800px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.contenedorCompraTickets{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+.CompraTickets-sec1-ofertas{
+    
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.ofertas{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    /* background-color: beige; */
+    padding: 10px;
+    width: 30%;
+    height: 88%;
+
+}
+.div-form{
+    /* background-color: rgb(228, 60, 60); */
+    margin-bottom: 50px;
+    height: 450px;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.div-inputs-NameApellido{
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 0%;
+}
+
+.doblesinputsdivisions{
+    width: 48%;
+
+
+}
+
+.dis-todosForm{
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+.generalinputsforms{
+
+    height: var(--altoinputcomprar);
+    border-radius: var(--borderRadioinputsComprartickets);
+    border-width: 1px;
+
+}
+.inputscargardatostodosigual{
+    border-style: solid;
+    border-color: var(--colorbordesinputscomprartickets);
+}
+
+#footercomprartickets{
+    margin-top: 60px;
+}
+
+.div-botonesfinalform{
+    margin-top: 10px;
+}
+
+.cont{
+    height: 50px;
+    padding: 2%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.TotalAPagar{
+    /* background-color: violet; */
+    font-size: larger;
+    color: rgb(0, 44, 126);
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    background-color:var(--colorTotalAPagar) ;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    float: inline-start;
+
+
+}
+
+.textTotalApagar{
+    margin-left: 20px;
+    /* background-color: aqua; */
+    width: 25%;
+
+}
+.inputTotalApagar{
+    width:80%;
+}
+.total{
+    border: none;
+    height: var(--altoinputcomprar);
+    background: none;
+    margin-right: 30px;
+    margin-left: 0px;
+    width: 60%;
+
+
+}
+.total:hover{
+    cursor: default;
+
+}
+input, select, option, button{
+    outline: none;
+}
+select:hover{
+    cursor:pointer;
+}
+.label-categoriaycantidad {
+    padding-left: auto;
+    padding-right: auto ;
+    display: flex;
+
+    text-align: left;
+}
+.label{
+    padding-left: 1.5%;
+    width: 48%;
+
+}
+.inputcorreo{
+    width: 97%;
+}
+.selectcom{
+    height: 34px;
+}
+
+.botonesfinalformulario{
+    font-size: large;
+    margin-left: 1%;
+    border: none;
+    color: var(--blanco);
+    background-color: var(--coloresbotonesfinalform);
+    height: 38px;
+}
+.botonesfinalformulario:hover{
+    cursor: pointer;
+}
+
+.venta-tituloform h2{
+
+    font-size: medium;
+    color: var(--color_fuente_grisclaro_header);
+    margin-bottom: 0px;
+}
+.venta-tituloform h1{
+
+    color: rgba(1, 9, 48, 0.795);
+    margin-top: 0px;
+}
+.titletarje{
+    margin: 0%;
+    font-size: 25px;
+}
+.tiendescuent{
+    margin: 0%;
+    font-size: larger;
+}
+.porcdescuento{
+    margin: 0%;
+    font-size: 25px;
+}
+.divParteTarjOFERT{
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+.ofertas-1{
+    border-color: #3699db;
+}
+.ofertas-2{
+    border-color: #28a2f3;
+}
+.ofertas-3{
+    border-color: #b8ab00;
+}
+.ofertas:hover{
+    cursor: pointer;
+    transition: 4ms;
+    height: 240px;
+    width: 250px;
+    
+    box-shadow: 2px -2px 10px 0 rgb(29, 74, 143);
+}
+#BedesPagar{
+    color: rgb(9, 9, 51);
+    font-size: 28px;
+    
+}
+
+
+@media (max-width:945px ){
+    .textTotalApagar{
+        width: 30%;
+    }   
+    .inputTotalApagar{
+        width: 70%;
+    }
+    .total{
+        width: 60%;
+    }
+    .contenedorCompraTickets{
+        width: 80%;
+    }
+    
+}
+
+
+@media (max-width:747px ){
+    .textTotalApagar{
+        width: 50%;
+    }   
+    .inputTotalApagar{
+        width: 50%;
+    }
+    .total{
+        width: 100%;
+    }
+
+}
+@media (max-width:717px ){
+   .div-inputs-NameApellido{
+        height: 100px;
+        box-sizing: border-box;
+        
+   }
+   .div-inputs-NameApellido input{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 24px;
+        width: 96%;
+   }
+
+}
+@media (max-width:492px ){
+    .textTotalApagar{
+        width: 50%;
+    }   
+    .inputTotalApagar{
+        width: 50%;
+    }
+    .total{
+        /* background-color: rebeccapurple; */
+        width: 100%;
+    }
+}
+
+@media (max-width:479px ){
+   .contenedorCompraTickets{
+        width: 98%;
+   }
+}
+
+@media (max-width:467px ){
+   .div-selectCantidad{
+        display: block;
+        height: 100px;
+
+   }
+   .div-selectCantidad select, .div-selectCantidad input {
+        width: 96%;
+        margin-bottom: 24px;
+        margin-left: 1%;
+        margin-right: 1%;
+
+   }
+   .labelCategoria2{
+    margin-left: auto;
+    margin-right: auto;
+        width: 96%;
+        display: block;
+        text-align: left;
+   }
+   .labelCategoria{
+        display: none;
+        
+   }
+   
+
+}
+@media (max-width:450px ){
+    .CompraTickets-sec1-ofertas{
+        display: block;
+        height: 600px;
+        /* overflow: hidden; */
+        margin-bottom:100px ;
+    }
+    .secciónpagcomprartickets{
+        height: 800px;
+        margin-bottom: 500px;
+        
+
+    }
+    .contenedorCompraTickets{
+        height: 800px;
+        
+    }
+    .ofertas{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 30%;
+    }
+ 
+}
+@media (max-width:408px ){
+    .TotalAPagar{
+        display: block;
+        height: 80px;
+        margin-bottom: 40px;
+        
+    }
+    .textTotalApagar{
+        text-align: left;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .inputTotalApagar{
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0px;
+    }
+    .inputTotalApagar input{
+        
+        margin-left: 5px;
+    }
+    .textTotalApagar p{
+        margin: 4px;
+    }
+ 
+}
