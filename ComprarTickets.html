@@ -1,14 +1,12 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprar tickets</title>
+    <title>integrador replica pagina oradores </title>
 </head>
 <body>
-    
-    
     <header class="header alineador_vertical">
 
 
@@ -40,7 +38,7 @@
                     <div><a class="header_element--2--opcion  header_element--2--opcion-3" href="">El lugar y la fecha</a></div>
                     <div><a class="header_element--2--opcion  header_element--2--opcion-3" href="">Conviértete en orador</a></div>
                     <div>
-                        <a class="header_element--2--opcion  header_element--2--opcion-2" href="">Comprar tickets</a></div>
+                        <a class="header_element--2--opcion  header_element--2--opcion-2" href="ComprarTickets.html">Comprar tickets</a></div>
 
                     
                 
@@ -54,144 +52,257 @@
         
     </header>
 
-    <div class="secciónpagcomprartickets">
-        <div class="contenedorCompraTickets">
-            <div class="CompraTickets-sec1-ofertas">
-    
-                <div class="ofertas ofertas-1 ">
-                    <div class="divParteTarjOFERT titletarje"><p>Estudiante</p></div>
-                    <div class="divParteTarjOFERT tiendescuent"    ><p>Tienen un descuento</p></div>
-                    <div class="divParteTarjOFERT"><p class="porcdescuento">80%</p></div>
-                    <div class="divParteTarjOFERT div-presentardocu-ofert"><p>*presentar documentación</p></div>
-                    
-                </div>
 
-                <div class="ofertas ofertas-2">
-                    <div class="divParteTarjOFERT titletarje"><p>Trainee</p></div>
-                    <div class="divParteTarjOFERT tiendescuent  " ><p>Tienen un descuento</p></div>
-                    <div class="divParteTarjOFERT"><p class="porcdescuento">50%</p></div>
-                    <div class="divParteTarjOFERT div-presentardocu-ofert"><p>*presentar documentación</p></div>
-                    
-    
-                </div>
+    <!--  ---------------------------------  -->
 
-                <div class="ofertas ofertas-3">
-                    
-                    <div class="divParteTarjOFERT titletarje"><p>Junior</p></div>
-                    <div class="divParteTarjOFERT tiendescuent  " ><p>Tienen un descuento</p></div>
-                    <div class="divParteTarjOFERT"><p class="porcdescuento">15%</p></div>
-                    <div class="divParteTarjOFERT div-presentardocu-ofert"><p>*presentar documentación</p></div>
-                    
-                </div>
-    
-            </div>
-            <div class="venta-tituloform">
-    
-                <h2>VENTA</h2>
-                <h1>VALOR DE TICKET $200</h1>
-            </div>
-            <div class="div-form">
-                <form action="">
-                    <div class=" dis-todosForm div-inputs-NameApellido">
+    <!--  sección 1 pagina   -->
+    <div   class="seccion-pagina-1">
+        
+        <!--        Aquí debe ir    un fondo imagen -->
 
-                        <input class="doblesinputsdivisions inputscargardatostodosigual generalinputsforms input-nameApellido resets" 
-                        name="Nombre" type="text" placeholder="Nombre" required>
 
-                        <input class="resets  doblesinputsdivisions inputscargardatostodosigual generalinputsforms input-nameApellido " name="Apellido" type="text" placeholder="Apellido" required>
+
+        <div class="contenedorcovertor">
+
+
+            <!-- caja de texto -->
+            <div class="cajadetexto">
+                <h1>Conf Bs As</h1>
+                <p>
+                    Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+                </p>
+
+                <!-- aquí están los botones -->
+                <div class="cajadetexto-secbotones">
+                    <div>
+                        <input class="seccion-pagina-1-cajatexto-botones seccion-pagina-1-cajatexto-botones--orador " type="button"    value="Quiero ser orador">
+                    </div>
+
+                    <div>
+                        <a href="ComprarTickets.html">
+                            <input class="seccion-pagina-1-cajatexto-botones seccion-pagina-1-cajatexto-botones--comprar" type="button"    value="Comprar tickets">
+                        </a>
+                        
 
                     </div>
-                    <div class="dis-todosForm div-input-correo">
-                        <input class="inputcorreo inputscargardatostodosigual generalinputsforms resets" name="Correo" type="email" placeholder="Correo" required>
-                    </div>
-                    <div class="dis-todosForm div-input-cantidadselectcategory">
 
-                        <div class="label-categoriaycantidad ">
-                            <div class="label doblesinputsdivisions">
-                                <label class="" for="cantidad">
-                                    Cantidad
-                                </label>
-                            </div>
-                            <div class="labelCategoria label doblesinputsdivisions">
-                                <label class="" for="Categoria">
-                                    Categoria
 
-                                </label>
-                            </div>
-                            
-                        </div>
-                        <div class="div-selectCantidad">
+                    
+                </div>
+                
 
-                            <input id="cantidadBoletos" class="doblesinputsdivisions inputscargardatostodosigual  generalinputsforms " name="cantidad" type="number" placeholder="Cantidad" value="1" min="1">
+            </div>
 
-                            <div class="labelCategoria2">
-                                <label class="" for="Categoria">
-                                    Categoria
+        </div>
+        
+    </div>
 
-                                </label>
-                            </div>
-                            <select class=" doblesinputsdivisions inputscargardatostodosigual  generalinputsforms selectcom " name="Categoria" id="">
-                                <option value="Estudiante">Estudiante</option>
-                                <option value="Trainee">Trainee</option>
-                                <option value="Junior">Junior</option>
+
+
+    <!-- Sección 2 pagina , oradores  -->
+    <div class="seccion-pagina-2 ">
+        <div class="seccion-pagina-2-h2">
+            <h2>
+                <span>CONOCE A LOS</span> ORADORES
+            </h2>
+        </div>
+        
+
+        <!-- parte de tarjetas -->
+        <div class="seccion-pagina-2-tarjetas  ">
             
-                            </select>
+            <div class="seccion-pagina-2-tarjetas-sub">
+                            <!-- tarjeta 1 orador  -->
+                <div class="seccion-pagina-2-tarjetas-elemento ">
+                     <div class="imgcaja parte-tarjeta">
+                        <img src="imagenes_integrador_front/steve.jpg" alt="steve Jobs">
+                     </div>                     
+
+                    
+                    <!-- parte de texto -->
+
+
+                    <div class="parte-tarjeta">
+                        <!-- etiquetas de colores -->
+                        <div class="etiquetasdecoloresdiv">
+                            <div class="etiqueta-javas etiqueta-orador-gral">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="etiqueta-react etiqueta-orador-gral">
+                                <p>React</p>
+                            </div>
                         </div>
+
                         
+    
+                        <!-- ----------------------------- -->
+    
+                        <h2>Steve Jobs</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cum sunt eum sed voluptas, nesciunt nihil obcaecati facere quos beatae nostrum aut consequuntur voluptate minima deleniti, dignissimos laborum magnam eaque.
+                        </p>
+        
                     </div>
-                    <div class="cont">
-                        <div class="generalinputsforms  TotalAPagar">
+                </div>
+                
+                <!-- tarjeta 2 orador  -->
+                
+                <div class="seccion-pagina-2-tarjetas-elemento ">
+                     <div class="imgcaja parte-tarjeta">
+                        <img src="imagenes_integrador_front/bill.jpg" alt="Bill Gates">
+                     </div>                   
+                    
+                    <!-- parte de texto -->
+
+
+                    <div class="parte-tarjeta">
+                        <!-- etiquetas de colores -->
+
+                        <div class="etiquetasdecoloresdiv">
+                            <div class="etiqueta-javas etiqueta-orador-gral">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="etiqueta-react etiqueta-orador-gral">
+                                <p>React</p>
+                            </div>
+                        </div>
+
                         
-                            <div class="textTotalApagar">
-                                <p>Total a Pagar: $</p>
+    
+                        <!-- ----------------------------- -->
+    
+                        <h2>Bill Gates</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cum sunt eum sed voluptas, nesciunt nihil obcaecati facere quos beatae nostrum aut consequuntur voluptate minima deleniti, dignissimos laborum magnam eaque.
+                        </p>
+        
+                    </div>
+                </div>
+                
+                <!-- tarjeta 3 orador  -->
+    
+                <div class="seccion-pagina-2-tarjetas-elemento ">
+
+                <div class="imgcaja parte-tarjeta">
+                    <img src="imagenes_integrador_front/ada.jpeg" alt="Ada Lovelance">
+                </div>
+                    
+                    <!-- parte de texto -->
+
+
+                    <div class="parte-tarjeta">
+                        <!-- etiquetas de colores -->
+
+                        <div class="etiquetasdecoloresdiv">
+                            <div class="etiqueta-ada1 etiqueta-orador-gral">
+                                <p>Negocios</p>
                             </div>
-                            <div  class="inputTotalApagar">
-                                <input id="BedesPagar" class="total " type="number" value="200" readonly>
+                            <div class="etiqueta-ada2 etiqueta-orador-gral">
+                                <p>Startups</p>
                             </div>
-                            
         
                         </div>
+
+                        
+                        <!-- ----------------------------- -->
+    
+                        <h2>Ada Lovelance</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cum sunt eum sed voluptas, nesciunt nihil obcaecati facere quos beatae nostrum aut consequuntur voluptate minima deleniti, dignissimos laborum magnam eaque.
+                        </p>
+        
                     </div>
-                    
-                    <div id="resumeHere">
-
-                    </div>
-                    <div class="dis-todosForm div-botonesfinalform">
-                        <button id="Borrar" class="doblesinputsdivisions generalinputsforms botonesfinalformulario">Borrar</button>
-                        <button id="RESUME" type="submit" class="doblesinputsdivisions generalinputsforms botonesfinalformulario">Resumen</button>
-                    </div>
+                </div>
+                
     
-    
-<!-- Deberán replicar la siguiente sección (es una sección que se debe agregar al integrador front-End) al presionar en el enlace “tickets”.
-
-Deberá contener la funcionalidad en Javascript, al momento de presionar el botón “Resumen”, deberá mostrar en la sección “Total a Pagar: $”, el monto correspondiente a la cantidad de tickets a comprar con el descuento correspondiente dependiendo la categoría seleccionada, existen 3 categorías, Estudiante, Trainee, Junior -->
-    
-    
-    
-                </form>
-
-
             </div>
-    
-    
-    
-    
+
+            
+            
         </div>
-    
-    
-    
-    
+
+
+
+        
+
+
+    </div>
+    <!-- -------------div seccion pagina 2 final---------------------------------->
+
+
+
+    <!-- ---400px maso ----secion pagina 3-->
+
+    <div class="seccion-pagina-3 size_sec_2y3">
+
+        <div class="seccion-pagina-3-caja seccion-pagina-3-elemento-1">
+
+
+
+        </div>
+
+        <div class="seccion-pagina-3-caja seccion-pagina-3-elemento-2">
+            <h2>BS As - Octubre </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nulla ipsam expedita quis consectetur quas temporibus quod, officia debitis. Possimus aliquam nemo minus quidem molestias repellendus dolor iure voluptate pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente et alias nesciunt quo eaque amet reprehenderit! Minima ratione consequuntur asperiores iure facere quisquam! Laborum sit accusamus quasi, sunt nihil quaerat!
+
+            </p>
+
+            <input class="seccion-pagina-3-elemento-1-buttom" type="submit" value="Conocé más">
+
+        </div>
+
     </div>
     
 
+    <!-- final seccion pagina 3 -->
+
+
+    <!-- 400px maso ---- inicio secion pagina 4 -->
+
+    <div class="seccion-pagina-4 size_sec_2y3 centradorpor4">
+
+
+
+        <div class="seccion-pagina-4-cajaformulario">
+            <h2> <span class="seccion-pagina-4-cajaformulario-span-1">CONVIÉRTETE EN UN</span> ORADOR</h2>
+
+            <p> Anótate como orador para dar una <span class="seccion-pagina-4-cajaformulario-span-2">charla ignite</span>. Cuéntanos de qué quieres hablar! </p>
+
+            <form class="seccion-pagina-4-cajaformulario-form " action="">
+                <div class="seccion-pagina-4-cajaformulario-form-input centrador-horizontal">
+                    <input type="text" placeholder="Nombre">
+                
+                    <input type="text" placeholder="Apellido">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="  Sobre qué quieres hablar? ">
+
+                </textarea>
+
+
+
+                <p id="p">Recuerda incluir un título para tu charla</p>
+
+                <input class="seccion-pagina-4-cajaformulario-submit" type="submit" value="Enviar">
+
+
+
+            </form>
 
 
 
 
+        </div>
 
 
 
+    </div>
 
-    <footer id="footercomprartickets">
+    <!-- final seccion pagina 4 -->
+
+
+    <footer>
 
         <div class="cont-nav-2">
             <nav class="navegador-2">
@@ -224,6 +335,9 @@ Deberá contener la funcionalidad en Javascript, al momento de presionar el bot�
 
 
     </footer>
-      <script src="/JS/script.js"></script>
+    
+
+
+    <script src="JScopia/script.js"></script>
 </body>
 </html>
