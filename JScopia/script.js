@@ -4,9 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var contenidoMenu = document.getElementById('contenidoMenu');
     var header = document.getElementsByClassName('header')[0];
     var anchoPantalla = window.innerWidth;
-
-    botonMenu.addEventListener('click', function () {
-        // Alternar la visibilidad del menú al hacer clic en el botón
+    function botonmenu(){
         if (contenidoMenu.style.display === 'none') {
 
             contenidoMenu.style.display = 'block';
@@ -25,11 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
             } else if( 454 <= anchoPantalla && anchoPantalla <465){
                 header.style.height = '200px'
             }else if( 389 <= anchoPantalla && anchoPantalla < 454){
-                header.style.height = '220px'
+                header.style.height = '240px'
             }else if( 357 < anchoPantalla && anchoPantalla < 389){
-                header.style.height = '250px'
+                header.style.height = '270px'
             } else if( anchoPantalla <= 357){
-                header.style.height = '350px'
+                header.style.height = '390px'
             }
         } else {
             
@@ -38,6 +36,12 @@ document.addEventListener('DOMContentLoaded', function () {
            
             
         }
+        
+    }
+
+    botonMenu.addEventListener('click', function () {
+        // Alternar la visibilidad del menú al hacer clic en el botón
+        botonmenu()
         
 
         
