@@ -10,13 +10,17 @@ document.addEventListener('DOMContentLoaded', function () {
         if (contenidoMenu.style.display === 'none') {
 
             contenidoMenu.style.display = 'block';
-            if( 724 <= anchoPantalla && anchoPantalla <=900){
-                header.style.height = '110px'
-            } else if( 684 <= anchoPantalla && anchoPantalla <724){
-                header.style.height = '120px'
-            }else if( 547 < anchoPantalla && anchoPantalla <684){
-                header.style.height = '130px'
-            }else if( 465 <= anchoPantalla && anchoPantalla <=547){
+            if( 465 <= anchoPantalla && anchoPantalla <=900){
+                header.style.height = '180px';
+                
+
+             }
+             // else if( 684 <= anchoPantalla && anchoPantalla <724){
+            //     header.style.height = '120px'
+
+            // }else if( 547 < anchoPantalla && anchoPantalla <684){
+            //     header.style.height = '130px'}
+            else if( 465 <= anchoPantalla && anchoPantalla <=547){
                 header.style.height = '195px'
             } else if( 454 <= anchoPantalla && anchoPantalla <465){
                 header.style.height = '200px'
