@@ -622,9 +622,11 @@ select:hover{
         display: none;
     }
     .labelCategoria2{
+        margin-left: 2px;
         display: block;
     }
     .label{ 
+        margin-left: 10px;
         width: 100%;
     }
 
